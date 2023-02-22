@@ -12,6 +12,7 @@ config SPRD_MINI_SYSDUMP
                 system occurs kernel panics.
 config SPRD_EMERGENCY_RESTART
         bool "SPRD emergency restart function defination"
+	depends on SPRD_DEBUG
         help
                 This option enables Spreatrum emergency restart which transfer
                 argument as reboot reason for watchdog reboot handler
