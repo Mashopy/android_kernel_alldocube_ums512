@@ -5,10 +5,11 @@
 				sprd,dsi-lane-number = <4>;
 				sprd,dsi-work-mode = <1>;
 
+				sprd,esd-check-enable = <0>;
 				sprd,esd-check-mode = <0>;
 				sprd,esd-check-period = <2000>;
-				sprd,esd-check-regs = <10>;
-				sprd,esd-return-code = <156>;
+				sprd,esd-check-register = <10>;
+				sprd,esd-check-value = <156>;
 
 				sprd,height-mm = <216>;
 
