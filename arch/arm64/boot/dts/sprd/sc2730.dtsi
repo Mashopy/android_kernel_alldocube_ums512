@@ -129,6 +129,8 @@
 			compatible = "sprd,sc27xx-fgu", "sprd,sc2730-fgu";
 			reg = <0xc00>;
 			bat-detect-gpio = <&pmic_eic 3 GPIO_ACTIVE_HIGH>;
+			first-calib-capacity = <0>;
+			first-calib-voltage = <3535000>;
 			nvmem-cell-names = "fgu_calib";
 			nvmem-cells = <&fgu_calib>;
 			io-channels = <&pmic_adc 0>, <&pmic_adc 14>;
